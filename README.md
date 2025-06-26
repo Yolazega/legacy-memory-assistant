@@ -18,8 +18,8 @@ A hybrid AI-based personal memory preservation system designed for secure, priva
 
 The project runs in a **hybrid architecture**, combining:
 
-- **Local Inference (Jetson Orin NX)** for real-time audio/text capture and privacy filtering
-- **PC Backend (RTX 5060Ti + Ryzen 7)** for heavy processing, TTS synthesis, backups, and avatar rendering
+- **Local Processing** for real-time audio/text capture and privacy filtering
+- **PC Backend** for heavy processing, TTS synthesis, backups, and avatar rendering
 
 ### Data Flow
 1. **Input Capture** → Speech, text, and optional visual input

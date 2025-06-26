@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Legacy Memory Assistant
 
 A hybrid AI-based personal memory preservation system designed for secure, private, and long-term digital legacy management. This project allows users to record, archive, and replay meaningful life events using speech, text, and visuals through a locally managed AI system connected to a visual avatar interface.
@@ -60,6 +59,128 @@ The project runs in a **hybrid architecture**, combining:
 - **Full Data Ownership** - users control all recordings
 - **Audit Logs** with complete transparency
 
+---
+
+## 🗣️ Live Proxy Avatar Feature (Personal Use)
+
+**Legacy Memory Assistant** includes a powerful **Live Proxy Avatar** mode that allows your AI assistant to temporarily respond on behalf of you when you're unavailable.
+
+### How It Works
+
+> The system allows a "Live Proxy Avatar" mode, where the AI assistant temporarily responds on behalf of the user when they are unavailable.
+>
+> For example, a family member may ask: "Where did Mom store the vacation documents?" — and the assistant responds using the user's stored contextual memory and speech style.
+>
+> This mode can be scheduled (e.g. between 10 PM and 7 AM) or triggered manually.
+
+### Key Features
+
+- **Contextual Memory Access**: The avatar draws from your stored conversations, documents, and personal knowledge base
+- **Speech Style Mimicry**: Responds using your documented communication patterns and preferences
+- **Scheduled Availability**: Configure automatic proxy mode during specific hours (sleep, work, travel)
+- **Manual Activation**: Instantly enable proxy mode when needed
+- **Truthful Responses Only**: The avatar will not fabricate answers, but only respond using available vectorized knowledge and documented conversations
+- **Confidence Indicators**: Clearly indicates when information is uncertain or unavailable
+
+### Example Interactions
+
+```
+Family Member: "Where did Mom store the vacation documents?"
+Proxy Avatar: "Based on our conversation from last week, I stored the vacation documents in the filing cabinet, second drawer, under 'Travel 2024'."
+
+Family Member: "What time does Dad usually wake up?"
+Proxy Avatar: "From our daily routines, I typically wake up around 6:30 AM on weekdays and 7:30 AM on weekends."
+
+Family Member: "Did Mom mention anything about the doctor's appointment?"
+Proxy Avatar: "I don't have any recorded conversations about a doctor's appointment. You might want to check directly when I'm available."
+```
+
+### Privacy & Safety
+
+- **Limited Scope**: Only accesses information you've explicitly shared with the system
+- **No Fabrication**: Never invents information that doesn't exist in your memory bank
+- **Access Controls**: Define who can interact with your proxy avatar
+- **Audit Trail**: Complete log of all proxy interactions for your review
+- **Immediate Override**: You can instantly disable proxy mode and take over any conversation
+
+---
+
+## 🏢 Enterprise Use Case: Internal Company Memory Mode
+
+The same architecture powering **Legacy Memory Assistant** can be adapted for **organizational use**, creating a shared conversational memory system for teams and companies.
+
+### Team Knowledge Proxy
+
+> Teams can create a shared conversational memory system that logs daily interactions, project decisions, or workflows. This enables team members to later query the assistant about:
+>
+> - "What did we decide about the Q4 budget in the last meeting?"  
+> - "Where is the internal documentation for onboarding new hires?"
+>
+> The assistant can act as a "knowledge proxy" when colleagues are on leave or unavailable, reducing response time and email overload.
+
+### Enterprise Architecture
+
+#### Deployment Options
+- **Internal Server Hosting**: Complete on-premises deployment for maximum security
+- **Encrypted Cloud Storage**: Secure cloud deployment with enterprise-grade encryption
+- **Hybrid Configuration**: Critical data on-premises, with cloud processing for scalability
+
+#### Security & Compliance
+- **Modular Permission Structures**: Role-based access control for different team members
+- **Data Access Roles**: Fine-grained permissions for sensitive information
+- **Live Update Syncing**: Real-time synchronization across team members
+- **Compliance Ready**: Built-in support for SOC 2, GDPR, HIPAA, and other standards
+
+### Integration Capabilities
+
+The enterprise version seamlessly integrates with existing workplace tools:
+
+- **Slack Integration**: Direct bot access within Slack channels and DMs
+- **Microsoft Teams**: Native Teams app with full conversation context
+- **Internal Dashboards**: Custom web interfaces for knowledge management
+- **Email Integration**: Smart email response suggestions based on team knowledge
+- **Calendar Systems**: Meeting context and decision tracking
+- **Project Management**: Integration with Jira, Asana, Monday.com, and similar tools
+
+### Use Cases
+
+#### Knowledge Management
+```
+Team Member: "What was the decision about the new server architecture?"
+Company AI: "In the infrastructure meeting on March 15th, the team decided to go with AWS EKS for container orchestration, with a budget of $50K for the first year."
+```
+
+#### Onboarding & Training
+```
+New Employee: "How do I set up the development environment?"
+Company AI: "Based on our engineering team's documentation, here's the setup process: [provides step-by-step guide from team knowledge base]"
+```
+
+#### Cross-Department Communication
+```
+Marketing Team: "What's the latest update on the product launch timeline?"
+Company AI: "According to the product team's last update, the launch is scheduled for Q2 2024, with beta testing starting next month."
+```
+
+### Enterprise Benefits
+
+- **Reduced Email Overload**: Instant access to team knowledge without constant messaging
+- **Improved Continuity**: Seamless operation when team members are on leave or unavailable
+- **Faster Decision Making**: Quick access to previous decisions and context
+- **Enhanced Onboarding**: New employees can quickly understand team processes and decisions
+- **Knowledge Preservation**: Institutional knowledge captured and searchable
+- **Cross-Team Collaboration**: Breaking down silos with shared accessible knowledge
+
+### Implementation Considerations
+
+- **Privacy Policies**: Respects company privacy requirements and data governance
+- **Data Retention**: Configurable retention periods for different types of information
+- **Access Auditing**: Complete audit trails for compliance and security
+- **Gradual Rollout**: Pilot programs with specific teams before company-wide deployment
+- **Training Programs**: Comprehensive training for effective system adoption
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -92,7 +213,7 @@ The project runs in a **hybrid architecture**, combining:
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/legacy-memory-assistant.git
+git clone https://github.com/Yolazega/legacy-memory-assistant.git
 cd legacy-memory-assistant
 pip install -r requirements.txt
 ```
@@ -207,8 +328,4 @@ This software is **not a medical device** and is not intended for:
 
 **Legacy Memory Assistant** - Preserving memories with intention, privacy, and love.
 
-*"Technology should serve humanity's deepest needs - the need to be remembered, to connect across time, and to leave something meaningful for those we love."* 
-=======
-# legacy-memory-assistant
-A hybrid AI-based personal memory preservation system for secure, private digital legacy management using local processing and avatar interface.
->>>>>>> 3f26ca2a70609edc89b2895d8cec65bb21c61b36
+*"Technology should serve humanity's deepest needs - the need to be remembered, to connect across time, and to leave something meaningful for those we love."*

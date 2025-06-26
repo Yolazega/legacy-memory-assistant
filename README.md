@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Legacy Memory Assistant
 
 A hybrid AI-based personal memory preservation system designed for secure, private, and long-term digital legacy management. This project allows users to record, archive, and replay meaningful life events using speech, text, and visuals through a locally managed AI system connected to a visual avatar interface.
@@ -207,3 +208,7 @@ This software is **not a medical device** and is not intended for:
 **Legacy Memory Assistant** - Preserving memories with intention, privacy, and love.
 
 *"Technology should serve humanity's deepest needs - the need to be remembered, to connect across time, and to leave something meaningful for those we love."* 
+=======
+# legacy-memory-assistant
+A hybrid AI-based personal memory preservation system for secure, private digital legacy management using local processing and avatar interface.
+>>>>>>> 3f26ca2a70609edc89b2895d8cec65bb21c61b36

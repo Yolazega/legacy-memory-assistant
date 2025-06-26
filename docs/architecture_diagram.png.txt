@@ -1,0 +1,25 @@
+# Architecture Diagram Placeholder
+
+This file is a placeholder for the system architecture diagram.
+
+The diagram should illustrate:
+- Jetson Orin NX for local processing
+- PC backend for heavy computation
+- Audio input pipeline (microphone → ASR → emotion detection)
+- Memory storage (encrypted SQLite + vector embeddings)
+- Avatar interface (TTS + visual representation)
+- User access control and privacy layers
+
+To create the actual diagram:
+1. Use tools like draw.io, Lucidchart, or Mermaid
+2. Show data flow between components
+3. Highlight privacy and security boundaries
+4. Include optional cloud sync pathway
+5. Save as PNG and replace this file
+
+Recommended tools:
+- draw.io (free, web-based)
+- Mermaid (code-based diagrams)
+- Figma (for more polished visuals)
+- PlantUML (for technical diagrams)
+
